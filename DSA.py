@@ -26,6 +26,12 @@ a, b = "ab"
 b, c = "cd"
 print(a, b, c)
 
+# print comman values in two lists
+list1 = [1, 2, 3, 4, 5]
+list2 = [4, 5, 6, 7, 8]
+comman = [x for x in list1 if x in list2]
+print(comman)
+
 
 
 
@@ -69,7 +75,7 @@ text = "p k b"
 reverse_text = "".join(text.split()[::-1])
 print(reverse_text)
 
-# Count each character in a string.
+# Count each character frequency in a string.
 s = 'seleniium'
 d = {}
 for char in s:
