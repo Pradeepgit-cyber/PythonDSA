@@ -1,3 +1,43 @@
+# Replace characters
+p = 'aaaa'
+print(p.replace('a', 'b', 2))
+# p = 'aaaa'
+# old = 'a'
+# new = 'b'
+# n = 2
+reversed_p = p[::-1]
+reversed_replaced = reversed_p.replace('a', 'b', 2)
+p_replaced = reversed_replaced[::-1]
+print(p_replaced)
+
+# How to print list without loop in python
+lst = [12,33,44,55]
+print(lst)
+print(*lst, sep="\n")
+
+# Find the output
+p = {True:  "A", 1:  "B", False:  "C", 0:  "D"}
+print(p)
+d = {}
+d[1] = "A"
+d[True] = "B"
+print(d)
+a, b = "ab"
+b, c = "cd"
+print(a, b, c)
+
+
+
+
+
+
+
+
+
+
+
+
+
 # revesre a string
 p = "paradeep"
 print(p[::-1])
